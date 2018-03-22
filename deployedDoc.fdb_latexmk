@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1521734493 "/Users/xuxiangzhe/Documents/Learning/latexProgram/deployDoc/deployedDoc.tex" "deployedDoc.pdf" "deployedDoc" 1521734495
+["pdflatex"] 1521738111 "/Users/xuxiangzhe/Documents/Learning/latexProgram/deployDoc/deployedDoc.tex" "deployedDoc.pdf" "deployedDoc" 1521738113
   "/Library/Fonts/Songti.ttc" 1501211855 66933232 48b917363d34d9f8e018d72f817cd5db ""
-  "/Users/xuxiangzhe/Documents/Learning/latexProgram/deployDoc/deployedDoc.tex" 1521734493 2167 20f413cac511af6f5d763a4e086cab40 ""
-  "/dev/null" 1521734452 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/Users/xuxiangzhe/Documents/Learning/latexProgram/deployDoc/deployedDoc.tex" 1521738111 3961 d9508a91cbb9dc8a468424f88c821411 ""
+  "/dev/null" 1521738110 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1480098701 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1480098701 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -75,11 +75,11 @@
   "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
   "/usr/local/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1521523504 3678510 ad24fb1548a3fc21ed859505b0b56e68 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "deployedDoc.aux" 1521734494 88 46d068ec9eb49a7ea19499e18e5f74b4 ""
-  "deployedDoc.tex" 1521734493 2167 20f413cac511af6f5d763a4e086cab40 ""
-  "deployedDoc.toc" 1521734494 62 7f75d0df7881be22c3803d750e059993 ""
+  "deployedDoc.aux" 1521738112 242 996133a6c806e5527ce2a2ebfebcd3cc ""
+  "deployedDoc.tex" 1521738111 3961 d9508a91cbb9dc8a468424f88c821411 ""
+  "deployedDoc.toc" 1521738112 180 e78e0761a34c830fae944cb24d99f683 ""
   (generated)
   "deployedDoc.toc"
-  "deployedDoc.aux"
-  "deployedDoc.log"
   "deployedDoc.pdf"
+  "deployedDoc.log"
+  "deployedDoc.aux"

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.20)  23 MAR 2018 00:01
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.20)  23 MAR 2018 01:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1320,14 +1320,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 33.
  [3]
-[4] (./deployedDoc.aux) ) 
+Overfull \hbox (4.63564pt too wide) in paragraph at lines 88--93
+[]\TU/lmr/m/n/10.53937 PING oss-cn-shanghai.aliyuncs.com (106.14.228.194): 56 d
+ata
+ []
+
+
+Overfull \hbox (37.74097pt too wide) in paragraph at lines 88--93
+\TU/lmr/m/n/10.53937 bytes 64 bytes from 106.14.228.194: icmp_seq=0 ttl=39 time
+=10.993
+ []
+
+
+Overfull \hbox (26.6114pt too wide) in paragraph at lines 88--93
+\TU/lmr/m/n/10.53937 ms 64 bytes from 106.14.228.194: icmp_seq=1 ttl=39 time=15
+.232
+ []
+
+
+Overfull \hbox (26.6114pt too wide) in paragraph at lines 88--93
+\TU/lmr/m/n/10.53937 ms 64 bytes from 106.14.228.194: icmp_seq=2 ttl=39 time=16
+.888
+ []
+
+
+Overfull \hbox (26.6114pt too wide) in paragraph at lines 88--93
+\TU/lmr/m/n/10.53937 ms 64 bytes from 106.14.228.194: icmp_seq=3 ttl=39 time=12
+.135
+ []
+
+[4] [5] [6] (./deployedDoc.aux) ) 
 Here is how much of TeX's memory you used:
- 20781 strings out of 493005
- 428637 string characters out of 6134596
- 462271 words of memory out of 5000000
- 24597 multiletter control sequences out of 15000+600000
+ 20812 strings out of 493005
+ 430055 string characters out of 6134596
+ 463271 words of memory out of 5000000
+ 24628 multiletter control sequences out of 15000+600000
  7590 words of font info for 51 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,6n,67p,10506b,1129s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deployedDoc.pdf (4 pages).
+Output written on deployedDoc.pdf (6 pages).
