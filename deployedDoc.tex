@@ -1,7 +1,86 @@
 %!TEX program = xelatex
 
 \documentclass{ctexart}
-
+        \usepackage{listings}
+        \usepackage{color}
+\author{TagMaker}
+\title{COUNTSnju部署文档}
 \begin{document}
-        测试
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\section{部署环境要求}
+\begin{itemize}
+        \item [系统要求]
+        \
+        
+
+        \item\  [推荐]Linux Ubuntu 16.04
+
+        \item\  [经过测试]macOS 10.13+
+
+        \item[Ubuntu 环境要求]
+        \
+
+        \textcolor{red}{本文档假设Ubuntu里已具备sudo和apt，如果这两个程序出现异常，请联系你的系统管理员}
+        
+        \item\ JDK 1.8+
+
+        首先，输入如下命令来检测是否已配置好Java:
+
+        \begin{lstlisting}[language=bash]
+         $java -version
+                
+        \end{lstlisting}
+
+        应该得到类似这样的输出 ( 版本可以为8、9或10 )
+
+        \begin{lstlisting}[language=bash]
+         java version "8"
+                
+        \end{lstlisting}
+        \textcolor{red}{如果你没有得到上述输出，请执行如下命令}
+        \begin{lstlisting}[language=bash]
+         $sudo apt-get install openjdk-8-jdk
+                       
+        \end{lstlisting}
+        然后输入系统的登录密码，并在接下来的提示中输入 " \emph{y} "
+
+        \item\ vim
+
+        输入如下命令来检测是否已安装vim:
+
+        \begin{lstlisting}[language=bash]
+         $vim -version
+                
+        \end{lstlisting}
+
+        应该得到类似这样的输出
+
+        \begin{quote}[language=bash]
+                VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+                Garbage after option argument: "-version"
+                More info with: "vim -h"
+                
+                
+        \end{quote}
+
+        \textcolor{red}{如果你没有得到上述输出，请执行如下命令}
+        \begin{lstlisting}[language=bash]
+         $sudo apt-get install vim
+                       
+        \end{lstlisting}
+        然后输入系统的登录密码，并在接下来的提示中输入 " \emph{y} "
+
+
+        \item\ 互联网接入
+
+
+
+        
+\end{itemize}
+
+
+
 \end{document}
