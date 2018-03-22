@@ -1,0 +1,7 @@
+# !/bin/bash
+cd /Users/xuxiangzhe/Documents/Learning/latexProgram/deployDoc
+git pull
+git add .
+git commit
+git push
+
