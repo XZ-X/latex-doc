@@ -1,5 +1,5 @@
 # !/bin/bash
-cd /Users/xuxiangzhe/Documents/Learning/latexProgram/deployDoc
+cd /Users/xuxiangzhe/Documents/Learning/latexProgram/doc
 git pull
 git add .
 git commit

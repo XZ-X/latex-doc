@@ -1,0 +1,97 @@
+%!TEX program=xelatex
+
+\documentclass{ctexart}
+\author{TagMaker}
+\title{迭代一后端总结文档}
+    \begin{document}
+    \maketitle
+    \newpage
+    \tableofcontents
+    \newpage
+    \section{后端开发历程简述}
+        在迭代一的过程中，后端开发整体较为顺利，基本能够按计划完成。开始开发时为后端
+        分配了三位同学，后来根据实际任务量调整至两位同学。
+        两位同学先是分成了developer和QA两个角色，分别学习各自的技术，
+        QA同学搭建好持续集成、质量检测、测试环境，developer同学
+        构建基本的springboot项目，做了简单的设计
+        之后两位同学分层开发，分别负责逻辑层和数据层。开发完毕后由QA同学主要
+        负责测试，developer同学主要负责修复，在各种工具的帮助下很快将单元测试
+        覆盖率达到了60\%以上。之后后端又对一些细节做了加强，比如动态地上传
+        本地文件，这样可以在运行时加载图片。比如对代码质量进行了一定的提升，改善了
+        一些编码风格。
+    
+    \section{后端设计中的重要决策}
+        \begin{itemize}
+            \item[REST] \
+            
+            软件使用前后端分离的restful接口进行开发，因为这样可以前后端并行开发，
+            适应迭代一快速而简明的任务要求。同时REST接口将前后端的联系
+            限制在数据本身，降低了耦合度，有利于之后实现功能的扩充。
+
+            \item[分层] \
+
+            后端的逻辑层和数据层使用分层开发的模型进行构建。因为迭代三有极大可能会使用
+            数据库来增加对数据的处理能力，因此分层有利于实现这个变更。
+
+
+        \end{itemize}
+    \newpage
+    \section{后端技术简介}
+    \begin{itemize}
+        \item [Springboot] \
+
+            Springboot是后端代码构造过程中使用的主要工具。我们主要使用了Springboot的
+            IoC技术来控制类与类之间的协作，用AOP技术来对异常进行了捕获和处理，
+            用Springboot自带的多线程(@Schedued)进行了方便快捷的多线程编程。
+
+        \item [Gradle] \
+
+            gradle主要负责依赖管理、测试、生成测试报告
+
+        \item [Jacoco] \
+
+            jacoco和gradle配合，用来生成覆盖率报告
+
+        \item [TestNG] \
+
+            测试工具
+
+        \item [Jenkins] \
+
+            持续继承工具，每一次提交到git上之后，Jenkins会自动进行构建和测试
+            并生成晴雨表。除此之外，每天的固定时间会执行一次构建。
+        
+        \item [Sonar] \
+
+            进行代码质量检测，并给出修复建议
+
+        \item [RestClient] \
+
+            用于方便地进行Rest接口的测试，并用于生成Rest规格文档
+
+    \end{itemize}
+    \newpage
+    \section{后端有待完善的地方}
+        \begin{itemize}
+            \item 由于复杂度较低，没有使用测试驱动开发
+
+            \item 回归测试不够充分，测试阶段注入bug较多
+
+            \item 新技术较多，有的利用不充分
+
+            \item 没有自动部署
+
+        \end{itemize}
+
+    \section{后端迭代二中的目标}
+        \begin{itemize}
+            \item 充分利用自动部署工具
+
+            \item 随着需求的复杂化，重构面向前端的restController的组织形式
+
+            \item 增加一些统计/计算相关的模块，增加较为复杂的算法
+
+            \item 增加单元测试力度，使测试更充分，并设立回归测试用例组进行回归测试
+        \end{itemize}
+
+    \end{document}
